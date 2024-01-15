@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<property
+name="connection.url">jdbc:mysql://localhost:3306/realestatesystem
+</property>
+<property name="connection.username">root</property>
+<property name="connection.password">Aeshaanu@82</property>
+<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+<property name="hbm2ddl.auto">update</property>
+<property name="hibernate.show_sql">false</property>
+<property name="hibernate.format_sql">false</property>
+
+<mapping class="com.realestate.entity.User"/>
+<mapping class="com.realestate.entity.Review"/>
+<mapping class="com.realestate.entity.Property"/>
+<mapping class="com.realestate.entity.Booking"/>
+
+</session-factory>
+</hibernate-configuration>
