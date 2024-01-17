@@ -8,7 +8,7 @@
 name="connection.url">jdbc:mysql://localhost:3306/realestatesystem
 </property>
 <property name="connection.username">root</property>
-<property name="connection.password">Aeshaanu@82</property>
+<property name="connection.password">6370</property>
 <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 <property name="hbm2ddl.auto">update</property>
 <property name="hibernate.show_sql">false</property>
